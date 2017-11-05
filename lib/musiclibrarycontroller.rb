@@ -80,6 +80,5 @@ class MusicLibraryController
     puts "Playing #{arr[input-1].name} by #{arr[input-1].artist.name}" if input.between?(1,arr.length)
   end
 
-  end
 
 end #class MusicLibraryController
