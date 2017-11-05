@@ -93,7 +93,7 @@ class Song
   end
 
   def self.create(name)
-    Song.new(name).tap {|s| s.save}
+    self.new(name).tap {|s| s.save}
   end
 
 end
