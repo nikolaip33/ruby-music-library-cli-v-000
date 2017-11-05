@@ -78,6 +78,7 @@ class MusicLibraryController
     arr = Song.all.sort_by(&:name)
     input = gets.chomp.to_i
     puts "Playing #{arr[input-1].name} by #{arr[input-1].artist.name}" if input.between?(1,arr.length)
+  end
 
   end
 
